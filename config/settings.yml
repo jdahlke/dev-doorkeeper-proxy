@@ -1,0 +1,19 @@
+development:
+  doorkeeper:
+    login_site: 'https://login-development.bundesimmo.de'
+    site: 'https://doorkeeper-development.bundesimmo.de'
+
+integration:
+  doorkeeper:
+    login_site: 'https://login-development.bundesimmo.de'
+    site: 'https://doorkeeper-development.bundesimmo.de'
+
+staging:
+  doorkeeper:
+    login_site: 'https://login-staging.bundesimmo.de'
+    site: 'https://doorkeeper-staging.bundesimmo.de'
+
+production:
+  doorkeeper:
+    login_site: 'https://login.bundesimmobilien.de'
+    site: 'https://login.bundesimmobilien.de'
