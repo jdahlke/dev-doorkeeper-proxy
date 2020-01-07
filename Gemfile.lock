@@ -105,8 +105,5 @@ DEPENDENCIES
   railties (~> 5.2.4)
   rake
 
-RUBY VERSION
-   ruby 2.5.5p157
-
 BUNDLED WITH
    2.0.2

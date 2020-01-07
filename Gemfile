@@ -1,8 +1,6 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby '2.5.5'
-
 gem 'railties', '~> 5.2.4', require: 'rails'
 gem 'actionpack', '~> 5.2.4'
 
