@@ -6,9 +6,9 @@ Doorkeeper.configure do |config|
   config.login_site = settings['doorkeeper']['login_site']
   config.site = settings['doorkeeper']['site']
 
-  config.client_app_name = secrets['doorkeeper']['HMAC_ACCESS_ID']
-  config.access_id = secrets['doorkeeper']['HMAC_ACCESS_ID']
-  config.secret_key = secrets['doorkeeper']['HMAC_SECRET_KEY']
+  config.client_app_name = secrets['doorkeeper']['access_id']
+  config.access_id = secrets['doorkeeper']['access_id']
+  config.secret_key = secrets['doorkeeper']['secret_key']
 
   config.cache = Rails.cache
 end

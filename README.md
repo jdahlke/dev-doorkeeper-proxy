@@ -10,7 +10,7 @@ bundle install
 2. add doorkeeper secrets
 ```
 cd config
-ln -s ../../bima-secret-service/nick-service/secrets.yml
+ln -s ../../bima-secret-service/doorkeeper-proxy/secrets.yml
 ```
 
 
